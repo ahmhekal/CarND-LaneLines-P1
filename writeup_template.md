@@ -22,11 +22,11 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps:
-## 1. I converted the images to grayscale.
-## 2. I used gaussian blur to smooth the images.
-## 3. I used cany function to detect the edges in the images.
-## 4. I used a polygon mask to select a certain region of interest (that contains lane line) by using four appropriate vertices.
-## 5. I used hough_lines() function which reterns an image with the two lines (one line on the left and one line on the right to represent the lane lines) by:
+#### 1. I converted the images to grayscale.
+#### 2. I used gaussian blur to smooth the images.
+#### 3. I used cany function to detect the edges in the images.
+#### 4. I used a polygon mask to select a certain region of interest (that contains lane line) by using four appropriate vertices.
+#### 5. I used hough_lines() function which reterns an image with the two lines (one line on the left and one line on the right to represent the lane lines) by:
     - calling "cv2.HoughLinesP" function that reterns a list of lines in the image
     - creating a zero dark image to draw the lines on
     - calling draw_lines() function which takes the list of lines each line is known by two points (x1, y1), (x2, y2) and this function is used to draw only one line to the right and one line to the left by :
