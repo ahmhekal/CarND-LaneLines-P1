@@ -40,39 +40,53 @@ My pipeline consisted of 5 steps:
       - _Finally I drew the two lines using cv2.line() function_
 
 
-
+---
 
 
 Images to show how the pipeline works, here is how to include an image: 
 ### grayscale Image
 ![alt text][image1]
 
+
+
 ### After gaussian blur
 ![alt text][image2]
+
+
 
 ### After canny edge detection
 ![alt text][image3]
 
+
+
 ### After masking to the interest rate
 ![alt text][image4]
 
+
+
 ### After hough drawing lines
 ![alt text][image5]
+
+
 
 ## The Final Output !!
 ![alt text][image6]
 
 
+
+
+
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when the lane line become curvy because I'm setting a fixed value of y1 of the line and I draw only one straight line to the right and another one to the left.
 
-Another shortcoming could be ...
+Another shortcoming could be when the color changing due to a shadow od a tree or something.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to change the fixed value of y1 of the line and to use color correction or something to overcome the change of the color
 
 Another potential improvement could be to ...
