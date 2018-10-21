@@ -44,12 +44,22 @@ My pipeline consisted of 5 steps:
 
 
 Images to show how the pipeline works, here is how to include an image: 
-
+### grayscale Image
 ![alt text][image1]
+
+### After gaussian blur
 ![alt text][image2]
+
+### After canny edge detection
 ![alt text][image3]
+
+### After masking to the interest rate
 ![alt text][image4]
+
+### After hough drawing lines
 ![alt text][image5]
+
+## The Final Output !!
 ![alt text][image6]
 
 
