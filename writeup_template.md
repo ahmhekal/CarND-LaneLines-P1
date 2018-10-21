@@ -2,8 +2,6 @@
 
 ## Writeup Template
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Finding Lane Lines on the Road**
@@ -23,7 +21,14 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps:
+1- I converted the images to grayscale.
+2- I used gaussian blur to smooth the images.
+3- I used cany function to detect the edges in the images.
+4- I used a polygon mask to select a certain region of interest (that contains lane line).
+5- I used hough_lined function which reterns in image with the two lines by:
+    - 
+   
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
